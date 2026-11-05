@@ -23,12 +23,11 @@ npm start
 
 ## Déploiement Railway
 
-1. Créer un projet Railway à partir de **ce dépôt GitHub**.
-2. Ajouter un service Redis dans le même projet.
-3. Relier sa variable de connexion à `REDIS_URL` du service web, par exemple via une référence Railway vers `REDIS_URL` du service Redis.
-4. Définir `NODE_ENV=production`. Railway fournit `PORT` automatiquement. Le `Dockerfile` et `railway.json` construisent l’application et utilisent `/api/health` comme contrôle de santé.
-5. Générer un domaine HTTPS Railway. Les WebSockets Socket.IO utilisent le même domaine que l’application.
-6. Conserver **une seule instance** du service web : l’état est durable dans Redis, mais le moteur des tours et les canaux Socket.IO résident dans ce processus. Une architecture à plusieurs instances demanderait un verrou distribué et l’adaptateur Redis Socket.IO.
+1. Installer la CLI Railway, se connecter et lier un projet Railway : `npm i -g @railway/cli`, `railway login`, puis `railway link`.
+2. Examiner le plan Infrastructure as Code avec `railway config plan`. Le fichier [`.railway/railway.ts`](.railway/railway.ts) déclare **ce dépôt GitHub**, un service web à une instance et Redis avec `REDIS_URL` lié automatiquement.
+3. Appliquer le plan avec `railway config apply`. L’intégration GitHub Railway doit pouvoir accéder au dépôt.
+4. Générer un domaine HTTPS Railway pour le service web. Railway fournit `PORT` automatiquement ; le `Dockerfile` construit l’application et `/api/health` contrôle la connexion à Redis.
+5. Conserver **une seule instance** du service web : l’état est durable dans Redis, mais le moteur des tours et les canaux Socket.IO résident dans ce processus. Une architecture à plusieurs instances demanderait un verrou distribué et l’adaptateur Redis Socket.IO.
 
 Variables disponibles dans [`.env.example`](.env.example) : `SESSION_HOURS` (24 par défaut, 1 à 72), `MAX_UPLOAD_BYTES` (3 Mo par défaut), `REDIS_URL` et `PORT`.
 
