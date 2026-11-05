@@ -1,0 +1,52 @@
+import { chromium, type Page } from 'playwright-core';
+
+const executablePath = process.env.CHROME_PATH;
+if (!executablePath) throw new Error('Définir CHROME_PATH vers Chrome/Chromium avant le test');
+const browser = await chromium.launch({ executablePath, headless: true });
+const origin = process.env.TEST_ORIGIN || 'http://127.0.0.1:3000';
+const checkWidth = async (page: Page, label: string) => {
+  const sizes = await page.evaluate(() => ({ viewport: innerWidth, content: document.documentElement.scrollWidth }));
+  if (sizes.content > sizes.viewport + 1) throw new Error(`${label} déborde horizontalement : ${sizes.content}/${sizes.viewport}`);
+};
+try {
+  const mobile = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, deviceScaleFactor: 1 });
+  const host = await mobile.newPage();
+  await host.goto(origin, { waitUntil: 'networkidle' });
+  await checkWidth(host, 'Accueil mobile');
+  if (process.env.SCREENSHOT_DIR) await host.screenshot({ path: `${process.env.SCREENSHOT_DIR}/blackops-home-mobile.png`, fullPage: true });
+  await host.getByRole('button', { name: /CRÉER UNE SOIRÉE/ }).click();
+  await host.getByPlaceholder('Comment doit-on vous appeler ?').fill('Alice');
+  await host.getByRole('button', { name: /CRÉER MON SALON/ }).click();
+  await host.getByRole('button', { name: /LANCER LA SOIRÉE/ }).waitFor();
+  await checkWidth(host, 'Salon mobile');
+  const invite = host.url();
+  const guestContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, deviceScaleFactor: 1 });
+  const guest = await guestContext.newPage();
+  await guest.goto(invite, { waitUntil: 'networkidle' });
+  await guest.getByRole('button', { name: /REJOINDRE LA SOIRÉE/ }).click();
+  await guest.getByPlaceholder('Comment doit-on vous appeler ?').fill('Bob');
+  await guest.getByRole('button', { name: /ENTRER DANS LE SALON/ }).click();
+  await guest.getByText('Alice').first().waitFor();
+  await host.getByRole('button', { name: /LANCER LA SOIRÉE/ }).click();
+  await host.getByText('LE SORT A CHOISI…').waitFor({ timeout: 10000 });
+  const current = await host.getByRole('button', { name: /VÉRITÉ/ }).isEnabled() ? host : guest;
+  await current.getByRole('button', { name: /VÉRITÉ/ }).click();
+  await host.getByText('RÉAGIR EN DIRECT').waitFor();
+  await guest.getByText('RÉAGIR EN DIRECT').waitFor();
+  await checkWidth(host, 'Question mobile');
+  await host.waitForTimeout(650);
+  if (process.env.SCREENSHOT_DIR) await host.screenshot({ path: `${process.env.SCREENSHOT_DIR}/blackops-game-mobile.png`, fullPage: true });
+  const compact = await browser.newContext({ viewport: { width: 360, height: 780 }, isMobile: true, hasTouch: true });
+  const smallPage = await compact.newPage();
+  await smallPage.goto(origin, { waitUntil: 'networkidle' });
+  await checkWidth(smallPage, 'Accueil Android compact');
+  await compact.close();
+  const desktop = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const desktopPage = await desktop.newPage();
+  await desktopPage.goto(origin, { waitUntil: 'networkidle' });
+  await checkWidth(desktopPage, 'Accueil ordinateur');
+  await desktop.close();
+  console.log('Navigateur mobile : accueil, entrée à deux, tirage et question sans débordement.');
+  await mobile.close();
+  await guestContext.close();
+} finally { await browser.close(); }
