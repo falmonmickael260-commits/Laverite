@@ -1,4 +1,5 @@
 import { chromium, type Page } from 'playwright-core';
+import { contents } from '../shared/content.js';
 
 const executablePath = process.env.CHROME_PATH;
 if (!executablePath) throw new Error('Définir CHROME_PATH vers Chrome/Chromium avant le test');
@@ -36,6 +37,9 @@ try {
   await current.getByRole('button', { name: /VÉRITÉ/ }).click();
   await host.getByText('RÉAGIR EN DIRECT').waitFor();
   await guest.getByText('RÉAGIR EN DIRECT').waitFor();
+  const prompt = await host.locator('.prompt-card h2').textContent();
+  if (!prompt || !contents.some(entry => entry.kind === 'truth' && entry.text === prompt)) throw new Error('La question affichée ne correspond pas au nouveau catalogue');
+  if (await guest.locator('.prompt-card h2').textContent() !== prompt) throw new Error('La question diffère entre les joueurs');
   await checkWidth(host, 'Question mobile');
   const lateContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, deviceScaleFactor: 1 });
   const late = await lateContext.newPage();
