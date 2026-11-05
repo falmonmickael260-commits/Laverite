@@ -6,7 +6,7 @@ export type Photo = { id: string; authorId: string; createdAt: number; turnNumbe
 export type Gift = { id: string; fromId: string; toId: string; type: string; at: number };
 export type Reaction = { id: string; playerId: string; emoji: string; at: number; photoId?: string };
 export type Room = {
-  id: string; hostId: string; createdAt: number; expiresAt: number; phase: Phase; beforePause?: Phase;
+  id: string; code: string; hostId: string; createdAt: number; expiresAt: number; phase: Phase; beforePause?: Phase;
   players: Player[]; cycle: string[]; lastSelected?: string; selectedId?: string; revealAt?: number;
   kind?: Kind; prompt?: Content; usedTruths: string[]; usedActions: string[]; lastCategory?: string;
   truthCount: number; actionCount: number; level: 1 | 2 | 3; sound: boolean; surprises: boolean;

@@ -1,0 +1,15 @@
+.hero-actions{display:flex;flex-direction:column;align-items:flex-start;gap:11px}
+.hero-actions .microcopy{margin-top:1px}
+.code-entry-button{min-height:52px;padding:14px 20px;border:1px solid #a36cbd;background:#2a1736b8;color:#f4dcff;font-size:11px;font-weight:800;letter-spacing:.13em;display:flex;align-items:center;justify-content:space-between;gap:25px;transition:transform .2s,border-color .2s}
+.code-entry-button:hover{transform:translateY(-2px);border-color:#f0b46a}
+.code-entry-button span{font-size:20px}
+.entry-panel .code-input{font-family:'Space Grotesk',sans-serif;font-size:25px;font-weight:700;letter-spacing:.25em;text-align:center;text-transform:uppercase;color:#ffc578}
+.back-button{display:block;margin:14px auto 0;border:0;background:none;color:#bba6c7;font-size:12px;text-decoration:underline}
+.room-code{margin-top:19px;padding:14px;text-align:center;background:radial-gradient(circle at 50% 15%,#ab5bd33b,transparent 80%),#1d1226;border:1px solid #9b65ab87}
+.room-code span,.lobby-code span{display:block;color:#d3a5e8;font-size:9px;font-weight:800;letter-spacing:.2em}
+.room-code strong,.lobby-code strong{display:block;font-family:'Space Grotesk',sans-serif;font-size:28px;letter-spacing:.16em;color:#ffca7b;margin:7px 0}
+.room-code button{border:0;background:transparent;color:#f3bb74;font-size:10px;font-weight:800;letter-spacing:.1em;text-decoration:underline}
+.lobby-code{margin:23px 0 0;min-width:220px;padding:14px 20px;border:1px solid #aa6db8;background:#301a3f;color:#fff;box-shadow:0 0 35px #a547b929}
+.lobby-code strong{font-size:36px;margin:5px 0}
+.lobby-code small{font-size:8px;letter-spacing:.14em;color:#b69dc1}
+.lobby-card .lobby-count{margin-top:18px}

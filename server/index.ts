@@ -6,8 +6,8 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Server } from 'socket.io';
 import type { Room, Player, Phase } from '../shared/types.js';
-import { addPlayer, addToCycle, createRoom, eligible, nextPlayer, normalizeName, pickContent, publicRoom } from './engine.js';
-import { deletePhoto, deleteRoom, getPhoto, getRoom, savePhoto, saveRoom } from './store.js';
+import { addPlayer, addToCycle, createRoom, eligible, newRoomCode, nextPlayer, normalizeName, normalizeRoomCode, pickContent, publicRoom } from './engine.js';
+import { deletePhoto, deleteRoom, getPhoto, getRoom, getRoomByCode, reserveRoomCode, savePhoto, saveRoom } from './store.js';
 
 const app = express();
 const http = createServer(app);
@@ -17,6 +17,7 @@ const maxUpload = Number(process.env.MAX_UPLOAD_BYTES || 3000000);
 const roomLocks = new Map<string, Promise<unknown>>();
 const lastReaction = new Map<string, number>();
 const lastGift = new Map<string, number>();
+const codeAttempts = new Map<string, { count: number; resetAt: number }>();
 const tokens = () => randomBytes(32).toString('base64url');
 const allowedAvatars = ['🦊','🐼','🐯','🐸','🦋','🐺','🦄','🐻','🐱','🐙','👻','😎'];
 const avatarOf = (v: unknown) => allowedAvatars.includes(String(v)) ? String(v) : '👻';
@@ -76,6 +77,7 @@ function authFromRequest(req: express.Request) {
   return header.startsWith('Bearer ') ? header.slice(7) : '';
 }
 
+app.set('trust proxy', 1);
 app.use(express.json({ limit: '20kb' }));
 app.get('/api/health', async (_req, res) => {
   try { const { redis } = await import('./store.js'); if (redis) await redis.ping(); res.json({ ok: true }); }
@@ -88,8 +90,35 @@ app.post('/api/rooms', async (req, res) => {
     if (!Number.isInteger(hours) || hours < 1 || hours > 72) throw new Error('Durée invalide');
     const token = tokens();
     const room = createRoom(name, avatarOf(req.body.avatar), hours, token);
-    await saveRoom(room);
-    res.json(success({ roomId: room.id, token, playerId: room.hostId }));
+    let reserved = false;
+    for (let attempt = 0; attempt < 8 && !reserved; attempt++) {
+      reserved = await reserveRoomCode(room);
+      if (!reserved) room.code = newRoomCode();
+    }
+    if (!reserved) throw new Error('Création du code impossible, réessayez');
+    try { await saveRoom(room); } catch (error) { await deleteRoom(room.id, room); throw error; }
+    res.json(success({ roomId: room.id, code: room.code, token, playerId: room.hostId }));
+  } catch (e) { res.status(400).json(fail((e as Error).message)); }
+});
+app.post('/api/rooms/join-code', async (req, res) => {
+  try {
+    const ip = req.ip || 'unknown';
+    const now = Date.now();
+    const rate = codeAttempts.get(ip);
+    const nextRate = rate && rate.resetAt > now ? { count: rate.count + 1, resetAt: rate.resetAt } : { count: 1, resetAt: now + 60000 };
+    codeAttempts.set(ip, nextRate);
+    if (nextRate.count > 60) throw new Error('Trop de tentatives, réessayez dans une minute');
+    setTimeout(() => { if (codeAttempts.get(ip)?.resetAt === nextRate.resetAt) codeAttempts.delete(ip); }, 61000).unref();
+    const code = normalizeRoomCode(req.body.code);
+    const name = normalizeName(req.body.name);
+    const room = await getRoomByCode(code);
+    if (!room) throw new Error('Salon introuvable ou expiré');
+    const token = tokens();
+    const player = await mutate(room.id, current => {
+      if (current.code !== code) throw new Error('Salon introuvable ou expiré');
+      return addPlayer(current, name, avatarOf(req.body.avatar), token);
+    });
+    res.json(success({ roomId: room.id, token, playerId: player.id }));
   } catch (e) { res.status(400).json(fail((e as Error).message)); }
 });
 app.post('/api/rooms/:id/join', async (req, res) => {

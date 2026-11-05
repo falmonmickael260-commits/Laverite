@@ -1,6 +1,6 @@
 # BLACKOPS — Action ou Vérité
 
-Jeu de soirée privé et synchronisé en temps réel. Un organisateur crée un salon, partage son lien, puis le serveur sélectionne automatiquement chaque joueur à son tour.
+Jeu de soirée privé et synchronisé en temps réel. Un organisateur crée un salon, partage son code de six caractères ou son lien, puis le serveur sélectionne automatiquement chaque joueur à son tour.
 
 ## Développement
 
@@ -36,6 +36,7 @@ Variables disponibles dans [`.env.example`](.env.example) : `SESSION_HOURS` (24 
 ## Fonctionnement
 
 - Le lien privé contient un identifiant de salon aléatoire. Chaque participant reçoit un jeton distinct enregistré dans son navigateur pour revenir après une actualisation.
+- Le code court est réservé au salon jusqu’à son expiration. Il peut être saisi sur l’accueil sans approbation manuelle, avant ou pendant la partie. Un nouvel arrivant entre dans la rotation du cycle en cours.
 - Le serveur vérifie le jeton à chaque commande et chaque accès aux photos. Les jetons ne sont jamais inclus dans l’état diffusé.
 - Le tirage conserve une file mélangée des joueurs présents. Chaque joueur passe une fois par cycle ; la frontière entre cycles évite un deuxième tour consécutif lorsque plusieurs personnes jouent.
 - Les contenus utilisés sont conservés dans l’état Redis jusqu’à épuisement de leur réserve éligible. Le niveau choisi par l’organisateur filtre la sélection.
@@ -51,4 +52,4 @@ Le catalogue [`shared/content.generated.json`](shared/content.generated.json) co
 
 Le validateur vérifie les comptes par catégorie, les identifiants, les contenus vides, les doublons textuels exacts, les formulations très proches et des termes interdits. Une revue humaine reste utile pour les ressemblances de sens que les tests automatiques ne peuvent pas déceler.
 
-Pour le contrôle visuel local, démarrer `npm start`, puis exécuter `CHROME_PATH=/chemin/vers/chrome npm run test:browser`. Ce scénario ouvre deux contextes de navigateur indépendants, joue un tour et vérifie les débordements à 360 px, 390 px et 1440 px.
+Pour le contrôle visuel local, démarrer `npm start`, puis exécuter `CHROME_PATH=/chemin/vers/chrome npm run test:browser`. Ce scénario ouvre trois contextes indépendants, dont un joueur entrant avec le code pendant la partie, et vérifie les débordements à 360 px, 390 px et 1440 px.

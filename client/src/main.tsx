@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { io, type Socket } from 'socket.io-client';
 import type { PublicRoom, Photo } from '../../shared/types';
 import './style.css';
+import './code.css';
 
 type Identity = { roomId: string; token: string; playerId: string };
 const STORAGE = 'blackops-identity';
@@ -42,7 +43,8 @@ function App() {
   const [room, setRoom] = useState<PublicRoom | null>(null);
   const [name, setName] = useState('');
   const [avatar, setAvatar] = useState('👻');
-  const [joinScreen, setJoinScreen] = useState(false);
+  const [entryMode, setEntryMode] = useState<'create' | 'code' | 'link' | null>(null);
+  const [roomCode, setRoomCode] = useState('');
   const [hours, setHours] = useState(24);
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
@@ -115,11 +117,11 @@ function App() {
 
   useEffect(() => { if (!toast) return; const timer = setTimeout(() => setToast(''), 3500); return () => clearTimeout(timer); }, [toast]);
 
-  const submit = async (create: boolean) => {
+  const submit = async () => {
     setBusy(true); setError('');
     try {
-      const url = create ? '/api/rooms' : `/api/rooms/${inviteId}/join`;
-      const data = await api(url, jsonOptions({ name, avatar, ...(create ? { hours } : {}) }));
+      const url = entryMode === 'create' ? '/api/rooms' : entryMode === 'code' ? '/api/rooms/join-code' : `/api/rooms/${inviteId}/join`;
+      const data = await api(url, jsonOptions({ name, avatar, ...(entryMode === 'create' ? { hours } : {}), ...(entryMode === 'code' ? { code: roomCode } : {}) }));
       const next = { roomId: data.roomId, token: data.token, playerId: data.playerId };
       localStorage.setItem(STORAGE, JSON.stringify(next)); setIdentity(next);
       history.replaceState(null, '', `/?room=${next.roomId}`);
@@ -135,6 +137,11 @@ function App() {
   const leave = () => { emit('leave'); localStorage.removeItem(STORAGE); setIdentity(null); setRoom(null); history.replaceState(null, '', '/'); };
   const copyInvite = async () => {
     try { await navigator.clipboard.writeText(`${location.origin}/?room=${identity?.roomId}`); setToast('Lien copié, prêt à partager'); }
+    catch { setToast('Copie indisponible sur cet appareil'); }
+  };
+  const copyCode = async () => {
+    if (!room?.code) return;
+    try { await navigator.clipboard.writeText(room.code); setToast('Code copié, prêt à partager'); }
     catch { setToast('Copie indisponible sur cet appareil'); }
   };
   const upload = async (file?: File) => {
@@ -179,18 +186,21 @@ function App() {
         <h1>ACTION <em>OU</em><br /><span>VÉRITÉ</span></h1>
         <p className="tagline">Ce soir, les secrets ne sont plus à l’abri.</p>
         <p className="hero-copy">Des défis, des confidences et des rencontres inattendues. Le sort choisit. À vous de jouer.</p>
-        {!joinScreen ? <div className="hero-actions">
-          <button className="primary-button" onClick={() => setJoinScreen(true)}>{inviteId ? 'REJOINDRE LA SOIRÉE' : 'CRÉER UNE SOIRÉE'} <span>↗</span></button>
-          {!inviteId && <p className="microcopy">Créez un salon privé, puis partagez son lien.</p>}
+        {!entryMode ? <div className="hero-actions">
+          <button className="primary-button" onClick={() => setEntryMode(inviteId ? 'link' : 'create')}>{inviteId ? 'REJOINDRE LA SOIRÉE' : 'CRÉER UNE SOIRÉE'} <span>↗</span></button>
+          {!inviteId && <button className="code-entry-button" onClick={() => setEntryMode('code')}>J’AI UN CODE DE SALON <span>→</span></button>}
+          {!inviteId && <p className="microcopy">Créez un salon ou rejoignez celui d’un ami avec son code.</p>}
         </div> : <section className="entry-panel">
-          <div className="panel-kicker">{inviteId ? 'VOTRE INVITATION' : 'NOUVELLE SOIRÉE'}</div>
-          <h2>{inviteId ? 'Entrez dans le salon' : 'Lancez la soirée'}</h2>
-          <label>Votre prénom ou pseudo<input value={name} onChange={e => setName(e.target.value)} maxLength={24} placeholder="Comment doit-on vous appeler ?" autoFocus /></label>
+          <div className="panel-kicker">{entryMode === 'link' ? 'VOTRE INVITATION' : entryMode === 'code' ? 'CODE D’ACCÈS' : 'NOUVELLE SOIRÉE'}</div>
+          <h2>{entryMode === 'create' ? 'Lancez la soirée' : 'Entrez dans le salon'}</h2>
+          {entryMode === 'code' && <label>Code du salon<input className="code-input" value={roomCode} onChange={e => setRoomCode(e.target.value.toUpperCase().replace(/[^A-HJ-NP-Z2-9]/g, '').slice(0, 6))} maxLength={6} autoCapitalize="characters" autoComplete="off" placeholder="ABC234" autoFocus /></label>}
+          <label>Votre prénom ou pseudo<input value={name} onChange={e => setName(e.target.value)} maxLength={24} placeholder="Comment doit-on vous appeler ?" autoFocus={entryMode !== 'code'} /></label>
           <div className="field-label">Choisissez votre avatar</div>
           <div className="avatar-picker">{avatars.map(a => <button key={a} className={avatar === a ? 'chosen' : ''} onClick={() => setAvatar(a)} aria-label={`Avatar ${a}`}>{a}</button>)}</div>
-          {!inviteId && <label>Durée du salon<select value={hours} onChange={e => setHours(Number(e.target.value))}><option value={6}>6 heures</option><option value={12}>12 heures</option><option value={24}>24 heures</option><option value={48}>48 heures</option><option value={72}>72 heures</option></select></label>}
+          {entryMode === 'create' && <label>Durée du salon<select value={hours} onChange={e => setHours(Number(e.target.value))}><option value={6}>6 heures</option><option value={12}>12 heures</option><option value={24}>24 heures</option><option value={48}>48 heures</option><option value={72}>72 heures</option></select></label>}
           {error && <div className="error" role="alert">{error}</div>}
-          <button className="primary-button wide" disabled={busy || name.trim().length < 2} onClick={() => submit(!inviteId)}>{busy ? 'UN INSTANT…' : inviteId ? 'ENTRER DANS LE SALON' : 'CRÉER MON SALON'} <span>↗</span></button>
+          <button className="primary-button wide" disabled={busy || name.trim().length < 2 || (entryMode === 'code' && roomCode.length !== 6)} onClick={submit}>{busy ? 'UN INSTANT…' : entryMode === 'create' ? 'CRÉER MON SALON' : 'ENTRER DANS LE SALON'} <span>↗</span></button>
+          <button className="back-button" onClick={() => { setEntryMode(null); setError(''); }}>← Retour</button>
         </section>}
       </div>
       <div className="hero-footer"><span>✦ TIRAGE ÉQUITABLE</span><span>✦ VÉRITÉS INATTENDUES</span><span>✦ DÉFIS À DISTANCE</span></div>
@@ -209,11 +219,12 @@ function App() {
     <div className="game-layout">
       <aside className="side-panel">
         <div className="side-head"><span>LE SALON</span><strong>{active.length} EN LIGNE</strong></div>
+        {room.code && <div className="room-code"><span>CODE DU SALON</span><strong>{room.code}</strong><button onClick={copyCode}>COPIER LE CODE ↗</button></div>}
         <div className="participants">{room.players.filter(p => !p.left).map(p => <div className={`participant ${p.id === room.selectedId ? 'current' : ''} ${p.present ? '' : 'away'}`} key={p.id}>
           <span className="participant-avatar">{p.avatar}</span><span className="participant-name">{p.name}{p.id === room.hostId && <small> ★</small>}</span><span className="participant-status">{p.id === room.selectedId ? 'À TOI' : p.present ? '●' : '○'}</span>
           {isHost && p.id !== room.hostId && <button className="remove-button" onClick={() => emit('remove', { playerId: p.id })} title={`Retirer ${p.name}`}>×</button>}
         </div>)}</div>
-        <button className="invite-button" onClick={copyInvite}><span>＋</span> INVITER DES JOUEURS</button>
+        <button className="invite-button" onClick={copyInvite}><span>＋</span> COPIER LE LIEN D’INVITATION</button>
         <div className="stats"><div><strong>{room.truthCount}</strong><span>VÉRITÉS<br />RÉVÉLÉES</span></div><div><strong>{room.actionCount}</strong><span>ACTIONS<br />RÉALISÉES</span></div></div>
         <div className="settings-row"><button onClick={() => { setReduced(!reduced); localStorage.setItem('blackops-reduced', reduced ? 'no' : 'yes'); }}>{reduced ? '✓' : '○'} Animations réduites</button><button onClick={toggleSound}>{soundEnabled ? '♫' : '♪'} Son local</button></div>
       </aside>
@@ -221,7 +232,8 @@ function App() {
         <div className="stage-top"><span>SOIRÉE PRIVÉE · TOUR {room.turnNumber || '00'}</span><span>NIVEAU {room.level} / 3</span></div>
         {room.phase === 'lobby' && <div className="stage-content lobby-card">
           <div className="stage-emblem">✦</div><div className="stage-kicker">LE CALME AVANT LES RÉVÉLATIONS</div><h2>La soirée se prépare<span>.</span></h2>
-          <p>Partagez le lien avec vos invités. Le tirage commencera dès que l’organisateur lancera la partie.</p>
+          <p>Partagez le code avec vos invités. Ils peuvent aussi rejoindre une partie déjà commencée.</p>
+          {room.code && <button className="lobby-code" onClick={copyCode}><span>CODE DU SALON</span><strong>{room.code}</strong><small>TOUCHER POUR COPIER ↗</small></button>}
           <div className="lobby-count"><span>{active.length}</span> participant{active.length > 1 ? 's' : ''} dans le salon</div>
           {isHost ? <button className="primary-button" disabled={active.length < 1} onClick={() => emit('start')}>LANCER LA SOIRÉE <span>→</span></button> : <div className="waiting">EN ATTENTE DE L’ORGANISATEUR <span className="pulse">●</span></div>}
         </div>}

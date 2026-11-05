@@ -52,10 +52,20 @@ export function pickContent(room: Room, kind: Kind, random = randomInt, preferre
 export function publicRoom(room: Room): PublicRoom {
   return { ...room, players: room.players.map(({ token: _token, ...player }) => player) };
 }
+const codeAlphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+export function newRoomCode(): string {
+  return Array.from({ length: 6 }, () => codeAlphabet[randomInt(codeAlphabet.length)]).join('');
+}
+export function normalizeRoomCode(value: unknown): string {
+  if (typeof value !== 'string') throw new Error('Code de salon invalide');
+  const code = value.trim().toUpperCase().replace(/[\s-]/g, '');
+  if (!/^[A-HJ-NP-Z2-9]{6}$/.test(code)) throw new Error('Entrez un code de 6 caractères');
+  return code;
+}
 export function createRoom(hostName: string, avatar: string, durationHours: number, token: string): Room {
   const now = Date.now();
   const host: Player = { id: randomUUID(), name: hostName, avatar, present: false, lastSeen: now, left: false, token };
-  return { id: randomUUID(), hostId: host.id, createdAt: now, expiresAt: now + durationHours * 3600000,
+  return { id: randomUUID(), code: newRoomCode(), hostId: host.id, createdAt: now, expiresAt: now + durationHours * 3600000,
     phase: 'lobby', players: [host], cycle: [], usedTruths: [], usedActions: [], truthCount: 0,
     actionCount: 0, level: 1, sound: false, surprises: true, photos: [], gifts: [], reactions: [], turnNumber: 0 };
 }

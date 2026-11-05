@@ -19,11 +19,14 @@ try {
   await host.getByRole('button', { name: /CRÉER MON SALON/ }).click();
   await host.getByRole('button', { name: /LANCER LA SOIRÉE/ }).waitFor();
   await checkWidth(host, 'Salon mobile');
-  const invite = host.url();
+  if (process.env.SCREENSHOT_DIR) await host.screenshot({ path: `${process.env.SCREENSHOT_DIR}/blackops-lobby-code.png`, fullPage: true });
+  const code = (await host.locator('.lobby-code strong').textContent())?.trim();
+  if (!code) throw new Error('Code de salon absent');
   const guestContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, deviceScaleFactor: 1 });
   const guest = await guestContext.newPage();
-  await guest.goto(invite, { waitUntil: 'networkidle' });
-  await guest.getByRole('button', { name: /REJOINDRE LA SOIRÉE/ }).click();
+  await guest.goto(origin, { waitUntil: 'networkidle' });
+  await guest.getByRole('button', { name: /J’AI UN CODE DE SALON/ }).click();
+  await guest.getByPlaceholder('ABC234').fill(code);
   await guest.getByPlaceholder('Comment doit-on vous appeler ?').fill('Bob');
   await guest.getByRole('button', { name: /ENTRER DANS LE SALON/ }).click();
   await guest.getByText('Alice').first().waitFor();
@@ -34,6 +37,15 @@ try {
   await host.getByText('RÉAGIR EN DIRECT').waitFor();
   await guest.getByText('RÉAGIR EN DIRECT').waitFor();
   await checkWidth(host, 'Question mobile');
+  const lateContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, deviceScaleFactor: 1 });
+  const late = await lateContext.newPage();
+  await late.goto(origin, { waitUntil: 'networkidle' });
+  await late.getByRole('button', { name: /J’AI UN CODE DE SALON/ }).click();
+  await late.getByPlaceholder('ABC234').fill(code);
+  await late.getByPlaceholder('Comment doit-on vous appeler ?').fill('Chloé');
+  await late.getByRole('button', { name: /ENTRER DANS LE SALON/ }).click();
+  await late.getByText('RÉAGIR EN DIRECT').waitFor();
+  await checkWidth(late, 'Arrivée en cours de partie');
   await host.waitForTimeout(650);
   if (process.env.SCREENSHOT_DIR) await host.screenshot({ path: `${process.env.SCREENSHOT_DIR}/blackops-game-mobile.png`, fullPage: true });
   const compact = await browser.newContext({ viewport: { width: 360, height: 780 }, isMobile: true, hasTouch: true });
@@ -46,7 +58,8 @@ try {
   await desktopPage.goto(origin, { waitUntil: 'networkidle' });
   await checkWidth(desktopPage, 'Accueil ordinateur');
   await desktop.close();
-  console.log('Navigateur mobile : accueil, entrée à deux, tirage et question sans débordement.');
+  console.log('Navigateur mobile : code de salon, trois joueurs, arrivée en cours de partie et affichage sans débordement.');
   await mobile.close();
   await guestContext.close();
+  await lateContext.close();
 } finally { await browser.close(); }

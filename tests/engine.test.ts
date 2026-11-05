@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { addPlayer, createRoom, nextPlayer, pickContent, publicRoom } from '../server/engine.js';
-import { getRoom, saveRoom } from '../server/store.js';
+import { addPlayer, createRoom, nextPlayer, normalizeRoomCode, pickContent, publicRoom } from '../server/engine.js';
+import { deleteRoom, getRoom, getRoomByCode, reserveRoomCode, saveRoom } from '../server/store.js';
 
 describe('rotation et contenus', () => {
   const random = (n: number) => n - 1;
@@ -52,5 +52,15 @@ describe('rotation et contenus', () => {
     await saveRoom(room);
     await new Promise(resolve => setTimeout(resolve, 15));
     expect(await getRoom(room.id)).toBeUndefined();
+  });
+  it('réserve un code court et l’invalide à la fermeture du salon', async () => {
+    const room = createRoom('Hôte', '👻', 1, 'host-token');
+    expect(room.code).toMatch(/^[A-HJ-NP-Z2-9]{6}$/);
+    expect(normalizeRoomCode(room.code.toLowerCase())).toBe(room.code);
+    expect(await reserveRoomCode(room)).toBe(true);
+    await saveRoom(room);
+    expect((await getRoomByCode(room.code))?.id).toBe(room.id);
+    await deleteRoom(room.id, room);
+    expect(await getRoomByCode(room.code)).toBeUndefined();
   });
 });

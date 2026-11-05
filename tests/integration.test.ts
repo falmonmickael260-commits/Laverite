@@ -69,10 +69,12 @@ describe('salon multijoueur réel', () => {
     const created = await request('/api/rooms', 'POST', { name: 'Alice', avatar: '🦊', hours: 1 });
     expect(created.status).toBe(200);
     const { roomId, token: hostToken, playerId: hostId } = created.body;
-    const joined = await request(`/api/rooms/${roomId}/join`, 'POST', { name: 'Bob', avatar: '🐼' });
+    expect(created.body.code).toMatch(/^[A-HJ-NP-Z2-9]{6}$/);
+    expect((await request('/api/rooms/join-code', 'POST', { code: 'ZZZZZZ', name: 'Inconnu' })).status).toBe(400);
+    const joined = await request('/api/rooms/join-code', 'POST', { code: created.body.code.toLowerCase(), name: 'Bob', avatar: '🐼' });
     expect(joined.status).toBe(200);
     const { token: guestToken, playerId: guestId } = joined.body;
-    expect((await request(`/api/rooms/${roomId}/join`, 'POST', { name: 'alice' })).status).toBe(400);
+    expect((await request('/api/rooms/join-code', 'POST', { code: created.body.code, name: 'alice' })).status).toBe(400);
     expect((await request(`/api/rooms/${roomId}`)).status).toBe(403);
     const host = await connect(roomId, hostToken);
     const guest = await connect(roomId, guestToken);
@@ -110,7 +112,7 @@ describe('salon multijoueur réel', () => {
     expect((await event(second === host ? guest : host, 'reaction', { emoji: '👏', photoId })).ok).toBe(true);
     const deleted = await fetch(origin + `/api/rooms/${roomId}/photos/${photoId}`, { method: 'DELETE', headers: { Authorization: `Bearer ${selectedToken}` } });
     expect(deleted.status).toBe(200);
-    const late = await request(`/api/rooms/${roomId}/join`, 'POST', { name: 'Chloé' });
+    const late = await request('/api/rooms/join-code', 'POST', { code: created.body.code, name: 'Chloé' });
     expect(late.status).toBe(200);
     const lateSocket = await connect(roomId, late.body.token);
     await waitFor(roomId, hostToken, r => r.players.some(p => p.name === 'Chloé' && p.present));
