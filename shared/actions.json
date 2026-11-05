@@ -1,0 +1,4505 @@
+[
+  {
+    "id": "a-8-001",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Fais une déclaration dramatique à un objet autour de toi.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-002",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Vends une cuillère imaginaire comme un produit de luxe.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-003",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Présente tes excuses officielles à ton réveil.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-004",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais semblant de recevoir un prix pour ta plus mauvaise habitude.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-005",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Annonce la météo de ta chambre avec un ton de catastrophe.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-006",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Imite ta réaction quand tu croises quelqu’un que tu voulais éviter.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-007",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais une publicité pour ton plus gros défaut amusant.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-008",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Raconte ta journée comme une bande annonce de film.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-009",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Fais un discours présidentiel sur les chaussettes perdues.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-010",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Présente-toi comme une célébrité internationale inconnue.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-011",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Invente une excuse absurde pour être en retard à une réunion imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-012",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais semblant de négocier avec une plante très têtue.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-013",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Annonce un événement minuscule comme une nouvelle historique.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-014",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Imite un commentateur sportif pendant que tu bois de l’eau.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-015",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Défends le droit des oreillers à prendre des vacances.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-016",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais une minute de silence solennelle pour une batterie faible.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-017",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Réagis comme si ton reflet venait de t’annoncer une grande nouvelle.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-018",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais une démonstration de ton pire pas de danse, assis si tu préfères.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-019",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Décris ton dernier repas comme un grand critique gastronomique.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-020",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Joue une scène de retrouvailles avec une télécommande.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-021",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Raconte ton trajet jusqu’à la cuisine comme une épopée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-022",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Invente une devise très sérieuse pour les personnes qui procrastinent.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-023",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Présente le règlement officiel d’un club imaginaire de sieste.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-024",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais l’interview d’une chaussure célèbre.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-025",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Déclare ton admiration pour un objet totalement banal.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-026",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais semblant de convaincre une lampe de prendre une journée de repos.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-027",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Présente ton canapé comme une destination de vacances cinq étoiles.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-028",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Lis une liste de courses imaginaire avec une voix de tragédie.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-029",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Annonce une panne de biscuits comme une crise nationale.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-030",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais une révérence à l’objet le plus banal près de toi.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-031",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Invente un hymne de trois lignes pour les gens qui oublient pourquoi ils entrent dans une pièce.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-032",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Présente une chaussette imaginaire comme un personnage célèbre.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-033",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Fais le discours de victoire d’un championnat de sieste.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-034",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Négocie avec ton téléphone pour obtenir cinq minutes de batterie.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-035",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Raconte le réveil de ce matin comme une scène d’action.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-036",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Défends les miettes de pain devant un tribunal fictif.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-037",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Imite une annonce de gare pour un train qui mène à la cuisine.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-038",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais une minute de conférence scientifique sur le mystère des stylos perdus.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-039",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Présente un verre d’eau comme une invention révolutionnaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-040",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Raconte la grande rivalité entre deux coussins imaginaires.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-041",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Mime un réveil qui ne veut pas sonner.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-042",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Invente une excuse très noble pour ne pas ranger une table.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-043",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais l’éloge funèbre d’un biscuit tombé dans une tasse.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-044",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Annonce l’arrivée d’une fourchette comme celle d’une star.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-045",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Décris une télécommande perdue comme un trésor mythique.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-046",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Joue un entretien d’embauche pour devenir gardien d’un pot de confiture.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-047",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais un discours d’inauguration pour une porte déjà ouverte.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-048",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Réagis comme si une chaise venait de te complimenter.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-049",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Présente les règles d’un concours de sourcils expressifs.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-050",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Mime la joie de retrouver une pièce oubliée dans une poche.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-051",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais une publicité pour un silence de qualité supérieure.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-052",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Annonce un duel dramatique entre deux stylos.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-053",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Raconte un éternuement imaginaire comme une catastrophe évitée de justesse.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-054",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Prononce un toast aux objets qui fonctionnent du premier coup.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-055",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Décris ton plus grand talent inutile comme une compétence rare.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-056",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais semblant de découvrir pour la première fois un interrupteur.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-057",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Présente un trophée imaginaire pour la meilleure excuse du jour.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-058",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Imite un guide de musée devant une paire de chaussures.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-059",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Donne une leçon de motivation à une pile de linge imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-060",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais le journal télévisé d’un coussin qui change de place.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-061",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Réponds à une interview sur ta carrière de goûteur d’eau.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-062",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Invente un cri de victoire pour une mission très facile.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-063",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Joue la bande annonce d’un film intitulé « La dernière cuillère ».",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-064",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais un plaidoyer passionné pour les cinq minutes de sommeil supplémentaires.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-065",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Annonce une compétition internationale de rangement de câbles.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-066",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Décris un simple bâillement comme un effet spécial de cinéma.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-067",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Mime un détective qui cherche une idée sous une table.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-068",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Raconte ton dernier trajet de dix mètres comme un marathon.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-069",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Présente une boîte vide comme un cadeau de collection.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-070",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais un discours d’adieu à un objet que tu utilises encore.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-071",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Imite un professeur donnant un cours sur les miettes de gâteau.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-072",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais semblant d’avoir gagné le droit d’éteindre la lumière.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-073",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Annonce le classement officiel des meubles les plus sympathiques.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-074",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Joue un vendeur qui promet qu’un trombone changera la vie.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-075",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Invente une chanson publicitaire de dix secondes pour une serviette.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-076",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Raconte une négociation difficile avec un réveil imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-077",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Présente le menu d’un restaurant qui ne sert que de l’air.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-078",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais une déclaration de gratitude spectaculaire à tes chaussons.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-079",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Mime la surprise d’un objet qui apprend son propre nom.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-080",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Décris le bruit d’une page tournée comme un événement historique.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-081",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Présente la météo de ton humeur en utilisant trois bruitages.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-082",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais l’annonce officielle d’une pause qui dure trois secondes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-083",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Joue un coach encourageant une tasse à rester debout.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-084",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Vends une feuille blanche comme une œuvre d’art mystérieuse.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-085",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Raconte la légende du dernier bonbon jamais retrouvé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-086",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais le discours d’ouverture d’un congrès de procrastination.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-087",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Imite un assistant personnel beaucoup trop enthousiaste.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-088",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Présente un objet ordinaire comme la huitième merveille du monde.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-089",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Annonce les résultats d’une élection entre une lampe et un coussin.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-090",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Fais semblant d’appeler un service client pour te plaindre de ton lundi.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-091",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Explique une règle de soirée entièrement inventée avec grand sérieux.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-092",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Raconte une dispute entre ton agenda et ton envie de dormir.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-093",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Imite une publicité pour une machine qui trouve les chaussettes assorties.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-094",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Joue la réaction d’une plante qui reçoit un compliment.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-095",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Décris le contenu d’une poche imaginaire comme un inventaire royal.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-096",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Annonce une découverte majeure concernant les couvercles disparus.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-097",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 2,
+    "text": "Fais une cérémonie de remise de prix à un objet qui ne fait rien.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-098",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Raconte une victoire contre une fermeture éclair récalcitrante.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-099",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Imite un acteur qui découvre que son rôle est celui d’une table.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-8-100",
+    "kind": "action",
+    "category": "Défis drôles et embarrassants",
+    "level": 1,
+    "text": "Conclue ton tour avec une phrase de film volontairement trop dramatique.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-9-001",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie l’objet le plus étrange près de toi et explique sa mission secrète.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-002",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre en photo un objet qui te représente aujourd’hui.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-003",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet inutile et présente sa photo comme une découverte rare.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-004",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet ancien et raconte pourquoi tu le gardes.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-005",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Choisis un objet coloré, photographie-le et invente son nom de code.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-006",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet qui mériterait une médaille.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-007",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui pourrait symboliser BLACKOPS.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-008",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre la photo d’un objet que tu utiliserais dans un film d’espionnage.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-009",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Trouve un objet rigolo et photographie son meilleur profil.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-010",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie quelque chose de minuscule et présente-le comme un géant.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-011",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet de ton quotidien qui a une histoire surprenante.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-012",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet dont tu pourrais faire une publicité impossible.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-013",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Trouve une texture amusante autour de toi et photographie-la de près.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-014",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie l’objet le plus élégant dans ton champ de vision.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-015",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre en photo un objet que tu garderais sur une île imaginaire.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-016",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet qui ferait un excellent trophée.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-017",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie un objet banal sous un angle mystérieux.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-018",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre en photo quelque chose qui te met de bonne humeur.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-019",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie deux objets qui forment un duo improbable.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-020",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet qui ressemble à un personnage et photographie-le.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-021",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie un objet que tu nommerais chef de mission.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-022",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui pourrait être le cadeau le plus drôle du monde.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-023",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet qui a clairement trop vécu.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-024",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet et invente-lui une origine extravagante.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-025",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre en photo un objet que tu trouves étonnamment beau.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-026",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui aurait une excellente histoire à raconter.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-027",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre la couleur la plus joyeuse visible près de toi.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-028",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet dont tu ne connais pas le nom exact.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-029",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre un détail chez toi que tu trouves étonnamment joli.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-030",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui ressemble à une créature imaginaire.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-031",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet qui pourrait servir de microphone à un mini concert.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-032",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie quelque chose de rond et invente son rôle secret.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-033",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre deux objets qui n’auraient jamais dû se rencontrer.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-034",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo de l’objet qui a le plus voyagé avec toi.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-035",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui ferait une drôle de mascotte.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-036",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui représente ton humeur sans montrer ton visage.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-037",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie la plus petite chose intéressante autour de toi.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-038",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve une forme qui ressemble à une lettre et montre-la.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-039",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui pourrait recevoir un prix d’élégance.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-040",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet que tu as réparé ou personnalisé.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-041",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Prends une photo d’un objet dont la couleur ne correspond pas à son usage.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-042",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie l’objet le plus photogénique de ta pièce.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-043",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui donne envie de poser une question.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-044",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie quelque chose que tu utilises chaque jour sans y penser.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-045",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Trouve un objet qui pourrait ouvrir une enquête fictive et montre-le.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-046",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie une ombre amusante sans révéler d’information personnelle.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-047",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui aurait sa place dans un musée insolite.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-048",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet qui ressemble à un cadeau raté.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-049",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie une texture qui ferait un bon fond de film.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-050",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui te rappelle une bonne surprise.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-051",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie l’objet le plus ancien que tu peux montrer sans dévoiler de souvenir privé.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-052",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet qui pourrait porter une couronne et montre-le.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-053",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie quelque chose qui semble plus grand en gros plan.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-054",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui mériterait un nom de superhéros.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-055",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet que tu utiliserais pour un tour de magie.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-056",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui semble avoir une expression.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-057",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre une paire d’objets parfaitement assortis.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-058",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui a une forme inattendue.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-059",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve quelque chose qui pourrait être une planète miniature.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-060",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet que tu présenterais à un extraterrestre.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-061",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre un objet qui pourrait symboliser une victoire minuscule.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-062",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un détail qui ressemble à un paysage imaginaire.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-063",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet qui ferait un excellent décor de dessin animé.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-064",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui te fait rire rien qu’en le regardant.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-065",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie un objet dont l’ombre est plus intéressante que lui.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-066",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre une chose qui pourrait devenir un trophée de soirée.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-067",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet qui semble venir d’une autre époque.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-068",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie une forme de cœur trouvée par hasard dans un objet.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-069",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre un objet qui pourrait devenir le symbole d’une équipe imaginaire.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-070",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie quelque chose de brillant sans utiliser le flash.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-071",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet qui pourrait jouer un rôle dans un film d’aventure.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-072",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet que tu choisirais pour représenter le niveau 3.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-073",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie un objet dont tu aimes particulièrement la matière.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-074",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre une chose qui pourrait illustrer le mot « surprise ».",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-075",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet qui te donne une idée créative.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-076",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui paraît sérieux mais pourrait être drôle.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-077",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre un objet que tu transformerais en cadeau virtuel.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-078",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve une composition de trois objets qui raconte une mini histoire.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-079",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui pourrait être le chef d’une mission secrète.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-080",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un détail que personne ne remarquerait au premier regard.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-081",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie quelque chose qui ressemble à un accessoire de scène.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-082",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet dont tu pourrais inventer une nouvelle fonction.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-083",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui pourrait faire rire un enfant.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-084",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie la meilleure couleur de ta pièce, selon toi.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-085",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Prends une photo d’un objet qui évoque une aventure passée.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-086",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet que tu choisirais comme partenaire de jeu.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-087",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui aurait besoin d’un slogan.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-088",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet qui ressemble à une lettre du nom BLACKOPS.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-089",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre un objet qui pourrait contenir un message imaginaire.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-090",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet que tu présenterais comme une relique sacrée pour rire.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-091",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre une chose qui a plus de personnalité qu’elle ne devrait.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-092",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet qui pourrait servir d’accessoire à une improvisation.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-093",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Photographie quelque chose de presque invisible à distance.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-094",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui raconte une de tes passions sans texte lisible.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-095",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Trouve un objet qui ferait une drôle d’affiche de film.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-096",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet qui pourrait inspirer une question Vérité.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-097",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 2,
+    "text": "Montre une chose qui semble attendre une mission.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-098",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Prends une photo d’un objet qui se prendrait pour une célébrité.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-099",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Photographie un objet que tu présenterais comme le cadeau du siècle.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-9-100",
+    "kind": "action",
+    "category": "Défis photo et objets",
+    "level": 1,
+    "text": "Montre un objet qui résume l’ambiance de ta soirée.",
+    "photo": true,
+    "gift": false
+  },
+  {
+    "id": "a-10-001",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un présentateur météo annonçant une pluie de confettis.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-002",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une histoire de braquage de biscuits en trente secondes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-003",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais la bande annonce d’un film sur un chargeur disparu.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-004",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un guide touristique présentant ton bureau.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-005",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Improviser un procès pour déterminer qui a mangé le dernier biscuit.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-006",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un détective découvrant une trace de café.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-007",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais parler deux objets qui ne sont pas d’accord.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-008",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un chef étoilé qui prépare un verre d’eau.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-009",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Raconte une aventure spatiale avec une chaussette pour héroïne.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-010",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente le journal télévisé d’une ville où tout le monde chuchote.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-011",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un coach sportif pour une compétition de clignements d’yeux.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-012",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Présente une invention totalement inutile avec passion.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-013",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Joue une réunion de crise à propos d’un stylo perdu.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-014",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte un conte de fées où le dragon a peur des papillons.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-015",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un vendeur aux enchères pour un trombone imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-016",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Annonce les résultats d’un concours de grimaces fictif.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-017",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Invente un dialogue entre ton téléphone et sa batterie.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-018",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un expert qui analyse une tache sur une nappe.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-019",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais une chronique radio sur les aventures d’un parapluie.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-020",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un espion qui découvre un code secret dans une recette.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-021",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Improvise la remise d’un prix au meilleur coussin.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-022",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte la légende d’une clé qui ouvre seulement les bonnes idées.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-023",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un arbitre pendant un match imaginaire entre deux plantes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-024",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Présente un documentaire sur les habitudes de ton canapé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-025",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Invente une scène de film noir autour d’une tasse vide.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-026",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un journaliste qui couvre la découverte d’une miette.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-027",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente le dialogue entre une lampe et un interrupteur.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-028",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un magicien dont le seul tour est de trouver un stylo.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-029",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Fais la bande annonce d’un documentaire sur un coussin.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-030",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un arbitre qui départage deux tasses.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-031",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte une enquête sur la disparition d’un élastique.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-032",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un professeur expliquant pourquoi les chaussettes se séparent.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-033",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Improvise une scène où une porte refuse de s’ouvrir par principe.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-034",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un présentateur d’émission culinaire devant une assiette vide.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-035",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais parler un calendrier qui veut prendre des vacances.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-036",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une publicité radio pour un nuage personnel.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-037",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Joue un capitaine qui dirige un bateau de papier imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-038",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un spécialiste du comportement des télécommandes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-039",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte un conte où le héros est un trombone timide.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-040",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un agent secret qui doit retrouver un bouchon perdu.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-041",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un guide touristique présentant le coin d’une table.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-042",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente un débat entre deux couleurs qui veulent dominer la soirée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-043",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais la chronique sportive d’un concours de clignements d’yeux.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-044",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un savant qui vient de découvrir l’utilité d’une serviette.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-045",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un commentateur de mode devant un vieux pull imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-046",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte la journée d’une clé qui rêve d’ouvrir une boîte de biscuits.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-047",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une scène où un miroir donne des conseils absurdes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-048",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un vendeur d’aventures en kit avec une voix très convaincante.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-049",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un maire inaugurant un nouveau tiroir.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-050",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte un suspense de trente secondes autour d’une cuillère.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-051",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais l’interview d’un objet qui refuse de révéler son nom.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-052",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un chercheur qui étudie pourquoi on oublie les parapluies.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-053",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un narrateur de conte pour expliquer un trajet jusqu’au canapé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-054",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une scène de retrouvailles entre deux piles usées.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-055",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais la bande annonce d’un film où personne ne trouve le sel.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-056",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un avocat défendant un dessin raté.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-057",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un chef d’orchestre qui dirige des bruits de notifications.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-058",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte le journal intime d’une boîte vide.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-059",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une conférence de presse sur un biscuit trop croustillant.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-060",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un extraterrestre découvrant les bouchons de bouteille.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-061",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un animateur de jeu où le prix est un verre d’eau.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-062",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte un complot fictif mené par les cintres de placard.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-063",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais parler une chaise qui voudrait voyager.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-064",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un héros qui doit vaincre une couverture trop confortable.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-065",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un historien racontant l’invention de la pause café.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-066",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente un bulletin météo pour un tiroir fermé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-067",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte une mission spatiale à bord d’une boîte à chaussures.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-068",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un juge qui doit décider si une blague est drôle.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-069",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un vendeur de billets pour une visite de ton salon.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-070",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente le monologue intérieur d’un téléphone à un pour cent.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-071",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais un doublage dramatique pour quelqu’un qui cherche ses clés.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-072",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un botaniste qui découvre une plante en plastique.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-073",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un présentateur d’actualités consacré aux objets oubliés.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-074",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte une romance totalement platonique entre deux livres.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-075",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une scène de film d’action pendant la préparation d’un thé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-076",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue une star qui refuse de signer un autographe à une fourchette.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-077",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un coach qui prépare un crayon à écrire son premier mot.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-078",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte un mystère où l’indice principal est une chaussette propre.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-079",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une discussion entre une fenêtre et la météo.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-080",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un directeur de musée qui présente un ticket de caisse blanc.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-081",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un arbitre de compétition de sourires.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-082",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte une scène de science-fiction avec une plante comme ordinateur.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-083",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Fais le doublage d’un chat imaginaire qui juge un objet.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-084",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un explorateur qui découvre l’arrière d’un canapé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-085",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Invente une comédie musicale de dix secondes sur le rangement.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-086",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Imite un présentateur de téléachat pour un nuage imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-087",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte un duel entre deux idées qui veulent sortir en premier.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-088",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un détective qui interroge une tasse silencieuse.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-089",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un professeur de danse enseignant un pas inexistant.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-090",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente l’épisode final d’une série sur un réveil obstiné.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-091",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte un discours de victoire prononcé par un stylo.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-092",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un guide de safari observant des peluches imaginaires.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-093",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un commentateur de course de fourmis fictive.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-094",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une scène où un parapluie se prend pour un soleil.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-095",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte une enquête journalistique sur la dernière part de gâteau.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-096",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un patron qui embauche un coussin pour son équipe.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-097",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 2,
+    "text": "Imite un pilote annonçant un vol vers la pièce voisine.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-098",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Invente une voix pour la boîte mystère du salon.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-099",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Raconte une catastrophe évitée grâce à un trombone imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-10-100",
+    "kind": "action",
+    "category": "Imitations et improvisations",
+    "level": 1,
+    "text": "Joue un conteur qui transforme un simple caillou en légende.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-001",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Décris-toi avec trois objets que tu peux voir.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-002",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Fais deviner ton humeur actuelle avec une petite mise en scène.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-003",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente ton défaut le plus drôle comme une qualité professionnelle.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-004",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Invente une devise qui résume ton caractère.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-005",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Raconte un souvenir heureux en donnant trois indices.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-006",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Classe trois choses qui te mettent immédiatement de bonne humeur.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-007",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Fais le portrait de ton toi du matin comme d’un personnage.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-008",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente une passion inattendue en quinze secondes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-009",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Dessine dans l’air la forme de ta journée et explique-la.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-010",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Invente un mini quiz de deux questions pour te découvrir.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-011",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Choisis une chanson imaginaire comme générique de ta vie.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-012",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris ton humour comme un plat de restaurant.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-013",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Raconte une petite victoire personnelle sans dire d’abord de quoi il s’agit.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-014",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Trouve un objet qui représente ta plus grande qualité.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-015",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente ton style de vacances en une publicité.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-016",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Mime une habitude que tu as et laisse les autres deviner.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-017",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Invente une carte de visite pour ton côté le plus spontané.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-018",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris ton énergie du jour comme une météo.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-019",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Explique ton talent secret comme si tu donnais un cours.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-020",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Choisis deux mots pour décrire ton rapport aux surprises.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-021",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Raconte un défi que tu aimerais relever cette année.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-022",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Donne un titre de film à ta dernière semaine.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-023",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente ton animal imaginaire qui aurait exactement ton caractère.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-024",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris la meilleure version de toi lors d’une soirée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-025",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Invente un petit rituel qui te correspond parfaitement.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-026",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente ton humeur avec trois mots qui ne sont pas des émotions.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-027",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Mime une activité qui te rend heureux et laisse deviner laquelle.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-028",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris un de tes talents comme une annonce de recrutement.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-029",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Invente le blason de ton caractère avec deux symboles.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-030",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Raconte une petite réussite sans utiliser le mot « réussi ».",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-031",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Donne un nom de code à ton côté le plus curieux.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-032",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente ton style d’amitié comme une météo.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-033",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Classe trois objets imaginaires qui te ressemblent.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-034",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Fais une mini publicité pour une de tes bonnes habitudes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-035",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris ton week-end idéal en seulement cinq mots.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-036",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Invente une récompense pour ton défaut le plus drôle.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-037",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Raconte une passion en commençant par sa partie la plus surprenante.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-038",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Choisis une couleur pour ton humour et explique-la.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-039",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente ton toi du lundi comme un nouveau personnage.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-040",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Fais deviner ton plat préféré sans citer aucun ingrédient.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-041",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Décris ton caractère comme un paysage imaginaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-042",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Invente une devise pour ton côté le plus patient.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-043",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente une chose que tu apprends en ce moment.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-044",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Fais une annonce de casting pour quelqu’un qui te jouerait au cinéma.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-045",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Raconte un souvenir qui résume ton sens de l’aventure.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-046",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Choisis trois sons pour représenter ta personnalité.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-047",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris une qualité dont tu es fier sans la nommer.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-048",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Invente le titre d’un chapitre sur ta vie actuelle.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-049",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Présente ta façon de prendre des décisions comme une recette.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-050",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Mime ta réaction devant une excellente surprise.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-051",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris ton endroit préféré sans dire où il se trouve.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-052",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Fais une prédiction amusante sur ton toi dans dix ans.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-053",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Invente un objet qui t’aiderait à mieux gérer un petit défaut.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-054",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente une habitude que tu aimerais transmettre.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-055",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Raconte une décision qui t’a montré plus courageux que prévu.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-056",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris une amitié idéale avec deux gestes imaginaires.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-057",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Choisis un superpouvoir inutile qui irait bien avec ton caractère.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-058",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Fais deviner ta saison préférée avec une courte histoire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-059",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente ton talent caché comme une émission de télé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-060",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Invente un symbole pour une qualité que tu admires.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-061",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Raconte un moment où ton humour t’a aidé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-062",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris ta façon d’accueillir un nouvel ami en une scène.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-063",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Choisis une musique imaginaire pour ton arrivée en soirée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-064",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente une chose qui te rend très enthousiaste.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-065",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Invente une carte de visite pour ta curiosité.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-066",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris ta meilleure journée possible avec trois détails.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-067",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Mime ton expression quand tu as une idée brillante.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-068",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Raconte un petit risque que tu es content d’avoir pris.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-069",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Présente une règle personnelle que tu trouves utile.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-070",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Invente un slogan pour ton optimisme ou ton scepticisme.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-071",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Décris un défaut que tu transformes parfois en force.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-072",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Choisis un objet imaginaire pour représenter ta gentillesse.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-073",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 2,
+    "text": "Raconte une habitude qui te rend reconnaissable.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-074",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Présente ton style de conversation en titre de film.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-11-075",
+    "kind": "action",
+    "category": "Découverte de la personnalité",
+    "level": 1,
+    "text": "Fais une mini cérémonie pour une qualité que tu découvres chez toi.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-001",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "DOSSIER CONFIDENTIEL : révèle une petite habitude drôle que personne ne devine.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-002",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION IMPOSSIBLE : raconte comment tu sauverais la soirée avec un trombone.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-003",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "CONFESSION EXPRESS : raconte en moins d’une minute une erreur devenue drôle.",
+    "photo": false,
+    "gift": false,
+    "timer": 60
+  },
+  {
+    "id": "a-12-004",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "CADEAU MYSTÈRE : offre un cadeau virtuel au hasard et invente sa légende.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-005",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION CODE VIOLET : invente une phrase secrète absurde pour entrer au salon.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-006",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER OUBLIÉ : présente une anecdote que tu racontes rarement.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-007",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "MISSION INFILTRATION : parle pendant vingt secondes comme un agent secret.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-008",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "ALERTE ORANGE : transforme un objet banal en équipement de mission.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-009",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "CONFESSION MINUTE : raconte une petite victoire que tu as gardée pour toi.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-010",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "MESSAGE CODÉ : formule un compliment collectif comme une transmission secrète.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-011",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "OPÉRATION FOU RIRE : invente un nom de code pour le groupe.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-012",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "ARCHIVE SECRÈTE : révèle ton souvenir le plus absurde de cette année.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-013",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "BRIEFING EXPRESS : décris le plan pour organiser la soirée parfaite.",
+    "photo": false,
+    "gift": false,
+    "timer": 60
+  },
+  {
+    "id": "a-12-014",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION MIRAGE : fais croire qu’un objet ordinaire a un pouvoir extraordinaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-015",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER À CLASSER : avoue une opinion légère mais impopulaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-016",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "OPÉRATION CAMOUFLAGE : décris ton humeur sans utiliser de mot émotionnel.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-017",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION DUO : imagine une équipe de deux objets autour de toi.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-018",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "CONFESSION ÉCLAIR : raconte une gêne devenue un bon souvenir.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-019",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "CODE D’ACCÈS : invente une phrase d’entrée spectaculaire.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-020",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION TÉMOIN : raconte la scène la plus improbable que tu as observée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-021",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "ALERTE CONFETTIS : félicite théâtralement tout le salon.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-022",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "OPÉRATION SOURIRE : invente une nouvelle règle de soirée amusante.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-023",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "ARCHIVE PERDUE : raconte une surprise qui a mal tourné mais bien fini.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-024",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION FINALE : improvise le résumé épique de ton tour.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-025",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "SIGNAL SECRET : fais un salut de mission que les autres peuvent imiter.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-026",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER VIOLET : invente le nom officiel de ton plus petit défaut.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-027",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "OPÉRATION ÉCHO : résume la soirée comme un communiqué secret.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-028",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "MISSION LUCIOLE : trouve un objet lumineux et donne-lui un rôle.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-029",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "CONFESSION RAPIDE : raconte une petite erreur devenue un souvenir heureux.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-030",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER OUBLIÉ : révèle une passion que personne ne devine facilement.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-031",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "MISSION CANULAR : présente une invention imaginaire inoffensive.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-032",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "ALERTE CONFIDENTIELLE : invente un nom de code pour ton humeur.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-033",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "OPÉRATION PORTRAIT : décris un agent secret qui te ressemble beaucoup.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-034",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "MISSION SANS BRUIT : mime une surprise pendant dix secondes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-035",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER DORÉ : raconte une petite victoire que tu n’as pas célébrée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-036",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MESSAGE CHIFFRÉ : invente un compliment collectif en trois mots.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-037",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "MISSION MIRACLE : explique comment un trombone sauverait une fête.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-038",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "ALERTE IMPRO : raconte une histoire qui commence par un objet perdu.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-039",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "OPÉRATION CAMÉLÉON : prends une voix différente pour décrire ta journée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-040",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "DOSSIER SOURIRE : partage le détail le plus drôle de ta semaine.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-041",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION PASSEPORT : invente une destination de vacances absurde.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-042",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "CONFESSION CHRONO : raconte en une minute un fou rire récent.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-043",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "OPÉRATION TALENT : montre un talent inutile mais amusant.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-044",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION FANTÔME : invente l’histoire d’un bruit mystérieux.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-045",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER CACHÉ : explique un choix qui a surpris tes amis.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-046",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "ALERTE COMPLICE : propose une règle drôle pour le prochain tour.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-047",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION ESPION : décris un objet près de toi sans le nommer.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-048",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "OPÉRATION FANTASQUE : présente un plan impossible pour ranger les nuages.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-049",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "DOSSIER MINUIT : raconte une pensée drôle que tu as eue récemment.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-050",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION CODE OR : invente un salut officiel pour le salon.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-051",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "CONFESSION EXPRESS : révèle une habitude que tu trouves toi-même étrange.",
+    "photo": false,
+    "gift": false,
+    "timer": 60
+  },
+  {
+    "id": "a-12-052",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "OPÉRATION SATELLITE : fais un bulletin météo de la soirée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-053",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION MASQUE : parle comme un personnage fictif pendant vingt secondes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-054",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER LÉGENDE : exagère volontairement une petite anecdote sans tromper personne.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-055",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "ALERTE RIRE : annonce une nouvelle absurde avec un ton sérieux.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-056",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION ARCHIVE : raconte un ancien défi que tu as relevé.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-057",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "OPÉRATION CADEAU : offre une rose virtuelle et invente sa provenance.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-058",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "DOSSIER INVISIBLE : présente une qualité discrète dont tu es fier.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-059",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION ÉNIGME : invente une devinette facile sur un objet banal.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-060",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "ALERTE ORIGAMI : imagine un message caché dans une feuille de papier.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-061",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "OPÉRATION THÉÂTRE : joue un agent surpris par une tasse.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-062",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION VOYAGE : raconte une escapade imaginaire de trente secondes.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-063",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER IMPROBABLE : confie une opinion innocente qui te vaut des débats.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-064",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "MISSION PHARE : choisis un joueur sans le nommer et formule un compliment collectif.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-065",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "OPÉRATION RÉCOMPENSE : décerne une médaille pour une qualité entendue.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-066",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "CONFESSION FLASH : avoue une petite erreur d’organisation récente.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-067",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "DOSSIER FINAL : donne un titre à l’histoire de ce tour.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-068",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION RENDEZ-VOUS : invente une réunion secrète entre deux objets.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-069",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "ALERTE PAPIER : imagine le contenu d’une note de mission fictive.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-070",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "OPÉRATION MYSTÈRE : décris un cadeau virtuel sans révéler lequel.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-071",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "MISSION ÉTOILE : remercie le groupe comme si tu recevais un prix.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-072",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "DOSSIER HUMOUR : raconte une blague que tu assumes même si elle est mauvaise.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-073",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 3,
+    "text": "MISSION TEMPÊTE : mime une catastrophe de confettis.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-074",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "OPÉRATION FUTUR : invente une mission BLACKOPS pour l’année prochaine.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-12-075",
+    "kind": "action",
+    "category": "Missions spéciales BLACKOPS",
+    "level": 2,
+    "text": "SIGNAL DE FIN : conclue avec une phrase de film d’espionnage inventée.",
+    "photo": false,
+    "gift": false
+  },
+  {
+    "id": "a-13-001",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Offre une couronne virtuelle à une personne dont une réponse t’a fait sourire.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-002",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre une rose virtuelle à quelqu’un qui a partagé une belle anecdote.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-003",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre un trophée virtuel pour la meilleure improvisation de la soirée.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-004",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre une tomate humoristique à une blague volontairement ratée.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-005",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Offre une boîte mystère et invente ce qu’elle pourrait contenir.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-006",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Compose une phrase de félicitations comme si elle était gravée sur une médaille.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-007",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Dessine dans l’air un cadeau impossible et décris-le.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-008",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Invente un bouquet virtuel composé de trois qualités.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-009",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Offre un cœur virtuel pour un moment de gentillesse entendu ce soir.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-010",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Invente une cérémonie de remise de prix à tout le salon.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-011",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Crée un diplôme imaginaire pour un talent improbable.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-012",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Imagine un emballage de cadeau pour une bonne humeur.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-013",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Offre un trophée à la meilleure réaction du moment.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-014",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Invente une carte postale venue d’une planète festive.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-015",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Compose un toast original à la curiosité du groupe.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-016",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Présente une couronne qui donne un pouvoir inutile mais drôle.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-017",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Imagine une médaille pour les personnes qui osent raconter leurs gaffes.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-018",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre un cadeau virtuel accompagné d’une mission amusante.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-019",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Crée un slogan pour la boîte mystère de la soirée.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-020",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Invente un compliment sous forme de titre de film.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-021",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Présente une rose qui raconte une anecdote.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-022",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Crée une récompense pour la personne la plus imaginative.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-023",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre une médaille et annonce son nom officiel.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-024",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Imagine un cadeau qui ne peut être ouvert qu’avec un fou rire.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-025",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Dessine avec les mains le logo d’une nouvelle équipe imaginaire.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-026",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre un bouquet virtuel pour remercier une belle histoire.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-027",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Crée une carte postale imaginaire à envoyer au salon.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-028",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Décerne une médaille virtuelle au meilleur sens de la répartie.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-029",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Imagine un cadeau qui ne pèse rien mais change l’ambiance.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-030",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre une boîte mystère en décrivant seulement le bruit qu’elle fait.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-031",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Dessine dans l’air un trophée pour la personne la plus curieuse.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-032",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Invente un prix pour les anecdotes qui finissent bien.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-033",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Offre une rose virtuelle accompagnée d’un titre de film.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-034",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Imagine une couronne dont le pouvoir est de provoquer des fous rires.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-035",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Crée un diplôme pour la meilleure improvisation du tour.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-036",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Compose un mini poème de trois lignes pour le groupe.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-037",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Offre une tomate humoristique avec une déclaration théâtrale.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-038",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Invente la carte d’un restaurant virtuel pour les joueurs.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-039",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Crée un emblème imaginaire pour l’équipe de ce soir.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-040",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre un cœur virtuel à une histoire qui t’a touché.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-041",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Imagine un cadeau parfait pour quelqu’un qui aime rire.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-042",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Décerne un trophée à une personne sans la nommer et explique le prix.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-043",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Compose un toast pour les nouvelles rencontres.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-044",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Invente un emballage spectaculaire pour un objet ordinaire.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-045",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Offre une médaille à la meilleure excuse absurde entendue.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-046",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Crée une devise pour le salon en moins de dix mots.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-047",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Imagine un bouquet composé uniquement de souvenirs amusants.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-048",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Offre un cadeau mystère et invente une règle drôle pour l’ouvrir.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-049",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 2,
+    "text": "Dessine dans l’air une affiche pour la prochaine soirée.",
+    "photo": false,
+    "gift": true
+  },
+  {
+    "id": "a-13-050",
+    "kind": "action",
+    "category": "Créativité et cadeaux virtuels",
+    "level": 1,
+    "text": "Décerne la couronne virtuelle du courage d’avoir répondu.",
+    "photo": false,
+    "gift": true
+  }
+]

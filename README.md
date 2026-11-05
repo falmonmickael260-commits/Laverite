@@ -48,8 +48,8 @@ Variables disponibles dans [`.env.example`](.env.example) : `SESSION_HOURS` (24 
 
 Les tests couvrent les pseudos en double, une rotation de 30 joueurs, les non répétitions avant épuisement, l’expiration, les permissions, la synchronisation des tours, les photos, les réactions, les cadeaux, la reconnexion, la pause et la fermeture.
 
-Le catalogue [`shared/content.generated.json`](shared/content.generated.json) contient les 1 000 vérités et 500 actions rédigées individuellement. Les sources éditables sont [`shared/content.ts`](shared/content.ts) et [`shared/extra-content.ts`](shared/extra-content.ts). Après une modification : `npm run export:content`, puis `npm run validate:content`.
+Le catalogue [`shared/content.generated.json`](shared/content.generated.json) contient les 1 000 vérités et 500 actions rédigées individuellement. Les vérités éditables sont dans [`shared/truths`](shared/truths), les actions dans [`shared/actions.json`](shared/actions.json), et [`shared/content.ts`](shared/content.ts) assemble le catalogue. Les nouvelles salles démarrent au niveau 2, modifiable par l’organisateur. Après une modification : `npm run export:content`, puis `npm run validate:content`.
 
-Le validateur vérifie les comptes par catégorie, les identifiants, les contenus vides, les doublons textuels exacts, les formulations très proches et des termes interdits. Une revue humaine reste utile pour les ressemblances de sens que les tests automatiques ne peuvent pas déceler.
+Le validateur vérifie les comptes par catégorie, les identifiants, les contenus vides, les doublons textuels exacts, les formulations très proches dans toutes les catégories et des termes interdits. Une revue humaine reste utile pour les ressemblances de sens que les tests automatiques ne peuvent pas déceler.
 
 Pour le contrôle visuel local, démarrer `npm start`, puis exécuter `CHROME_PATH=/chemin/vers/chrome npm run test:browser`. Ce scénario ouvre trois contextes indépendants, dont un joueur entrant avec le code pendant la partie, et vérifie les débordements à 360 px, 390 px et 1440 px.

@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { addPlayer, createRoom, nextPlayer, normalizeRoomCode, pickContent, publicRoom } from '../server/engine.js';
 import { deleteRoom, getRoom, getRoomByCode, reserveRoomCode, saveRoom } from '../server/store.js';
+import { contents } from '../shared/content.js';
 
 describe('rotation et contenus', () => {
   const random = (n: number) => n - 1;
@@ -33,6 +34,16 @@ describe('rotation et contenus', () => {
     const ids = Array.from({ length: 50 }, () => pickContent(room, 'truth', random).id);
     expect(new Set(ids).size).toBe(50);
     expect(JSON.stringify(publicRoom(room))).not.toContain('host-token');
+  });
+  it('commence avec des vérités adultes et attend quelques tours avant les questions qui supposent des réponses précédentes', () => {
+    const room = setup();
+    expect(room.level).toBe(2);
+    room.level = 3;
+    room.turnNumber = 1;
+    const drawn = Array.from({ length: 100 }, () => pickContent(room, 'truth', random));
+    expect(drawn.every(question => (question.minTurn ?? 1) <= 1)).toBe(true);
+    expect(contents.some(question => question.kind === 'truth' && question.text.includes('Qui préfères-tu pour l’instant dans la famille BLACKOPS'))).toBe(true);
+    expect(contents.some(question => question.kind === 'truth' && question.text.includes('Quel objet as-tu déjà cherché partout'))).toBe(false);
   });
   it('empêche les pseudos simultanément identiques', () => {
     const room = setup();

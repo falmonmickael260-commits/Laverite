@@ -33,10 +33,10 @@ export function addToCycle(room: Room, id: string, random = randomInt) {
 }
 export function pickContent(room: Room, kind: Kind, random = randomInt, preferredCategories?: string[]): Content {
   const used = kind === 'truth' ? room.usedTruths : room.usedActions;
-  let pool = contents.filter(c => c.kind === kind && c.level <= room.level && !used.includes(c.id));
+  let pool = contents.filter(c => c.kind === kind && c.level <= room.level && (c.minTurn ?? 1) <= Math.max(1, room.turnNumber) && !used.includes(c.id));
   if (!pool.length) {
     used.length = 0;
-    pool = contents.filter(c => c.kind === kind && c.level <= room.level);
+    pool = contents.filter(c => c.kind === kind && c.level <= room.level && (c.minTurn ?? 1) <= Math.max(1, room.turnNumber));
   }
   if (preferredCategories?.length) {
     const preferred = pool.filter(c => preferredCategories.includes(c.category));
@@ -67,7 +67,7 @@ export function createRoom(hostName: string, avatar: string, durationHours: numb
   const host: Player = { id: randomUUID(), name: hostName, avatar, present: false, lastSeen: now, left: false, token };
   return { id: randomUUID(), code: newRoomCode(), hostId: host.id, createdAt: now, expiresAt: now + durationHours * 3600000,
     phase: 'lobby', players: [host], cycle: [], usedTruths: [], usedActions: [], truthCount: 0,
-    actionCount: 0, level: 1, sound: false, surprises: true, photos: [], gifts: [], reactions: [], turnNumber: 0 };
+    actionCount: 0, level: 2, sound: false, surprises: true, photos: [], gifts: [], reactions: [], turnNumber: 0 };
 }
 export function normalizeName(value: unknown): string {
   if (typeof value !== 'string') throw new Error('Pseudo invalide');

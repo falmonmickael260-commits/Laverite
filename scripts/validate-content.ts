@@ -8,7 +8,7 @@ const shingles = (value: string) => {
   return new Set(Array.from({ length: Math.max(0, words.length - 2) }, (_, i) => words.slice(i, i + 3).join(' ')));
 };
 const forbidden = [
-  { pattern: /\bfamille\b/i, reason: 'mot interdit' },
+  { pattern: /\bfamille\b(?!\s+BLACKOPS\b)/i, reason: '« famille » doit désigner BLACKOPS' },
   { pattern: /\b(sexe|sexuel|sexuelle|nudit[eé]|d[eé]shabille|embrasse|baiser)\b/i, reason: 'contenu sexuel' },
   { pattern: /\b(adresse|num[eé]ro de t[eé]l[eé]phone|mot de passe|carte bancaire|dossier m[eé]dical)\b/i, reason: 'information sensible' },
   { pattern: /\b(ach[eè]te|paie|d[eé]pense|conduis|saute par la fen[eê]tre|bouscule|frappe quelqu’un)\b/i, reason: 'défi dangereux ou payant' }
@@ -33,6 +33,14 @@ for (const spec of expectedCounts) {
     const score = common / (sets[i].size + sets[j].size - common || 1);
     if (score >= .78) errors.push(`Formulations trop proches : ${group[i].id} et ${group[j].id} (${score.toFixed(2)})`);
   }
+}
+const truths = contents.filter(row => row.kind === 'truth');
+const truthSets = truths.map(row => shingles(row.text));
+for (let i = 0; i < truths.length; i++) for (let j = i + 1; j < truths.length; j++) {
+  if (truths[i].category === truths[j].category) continue;
+  const common = [...truthSets[i]].filter(part => truthSets[j].has(part)).length;
+  const score = common / (truthSets[i].size + truthSets[j].size - common || 1);
+  if (score >= .78) errors.push(`Vérités trop proches entre catégories : ${truths[i].id} et ${truths[j].id} (${score.toFixed(2)})`);
 }
 for (const [kind, min] of [['truth', 1000], ['action', 500]] as const) {
   const actual = contents.filter(row => row.kind === kind).length;
