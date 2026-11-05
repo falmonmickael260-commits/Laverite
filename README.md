@@ -29,6 +29,8 @@ npm start
 4. Générer un domaine HTTPS Railway pour le service web. Railway fournit `PORT` automatiquement ; le `Dockerfile` construit l’application et `/api/health` contrôle la connexion à Redis.
 5. Conserver **une seule instance** du service web : l’état est durable dans Redis, mais le moteur des tours et les canaux Socket.IO résident dans ce processus. Une architecture à plusieurs instances demanderait un verrou distribué et l’adaptateur Redis Socket.IO.
 
+**Attention :** un déploiement direct du dépôt GitHub ne crée pas automatiquement les ressources de `.railway/railway.ts`. Il faut appliquer le plan IaC, ou ajouter Redis manuellement et définir `REDIS_URL` sur le service `Laverite`, avant que le serveur puisse démarrer en production.
+
 Variables disponibles dans [`.env.example`](.env.example) : `SESSION_HOURS` (24 par défaut, 1 à 72), `MAX_UPLOAD_BYTES` (3 Mo par défaut), `REDIS_URL` et `PORT`.
 
 ## Fonctionnement

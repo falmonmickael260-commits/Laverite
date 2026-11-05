@@ -2,7 +2,7 @@ import { defineRailway, github, project, redis, service } from 'railway/iac';
 
 export default defineRailway((ctx) => {
   const cache = redis('blackops-redis');
-  const web = service('blackops-web', {
+  const web = service('Laverite', {
     source: github('falmonmickael260-commits/Laverite', { branch: 'main' }),
     start: 'npm start',
     healthcheck: '/api/health',
